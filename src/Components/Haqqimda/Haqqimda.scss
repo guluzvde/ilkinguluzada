@@ -1,0 +1,27 @@
+.group-haqqimda{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .img-container{
+
+        height: 35rem;
+        overflow: hidden;
+        img{
+            height: 35rem;
+        }
+    }
+    .haqqimda-container{
+        width: 50%;
+        h1{
+            text-align: center;
+            color:  white;
+            margin-bottom: 3rem;
+        }
+        p{
+            text-align: center;
+            color: white;
+        }
+    }
+    margin-bottom: 5rem;
+}
