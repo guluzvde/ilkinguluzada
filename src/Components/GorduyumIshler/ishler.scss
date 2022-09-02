@@ -1,0 +1,11 @@
+.ish-img{
+display: flex;
+flex-direction: column;
+gap: 1rem;
+align-items: center;
+
+    img{
+        height: 11rem;
+        border-radius: 1rem;
+    }
+}

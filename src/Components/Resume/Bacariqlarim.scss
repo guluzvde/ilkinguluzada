@@ -10,8 +10,11 @@
         margin-top: 3rem;
     }
     .bacariqlarim-group{
-        display: flex;
-        justify-content: space-around;
+        display: grid;
+        grid-template-columns: repeat(4,10rem);
+        justify-content: center;
+        column-gap: 3rem;
+        row-gap: 2rem;
         margin-bottom: 3rem;
     }
     // margin-bottom: 5rem;
