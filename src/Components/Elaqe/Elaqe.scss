@@ -1,0 +1,32 @@
+.contact-group {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: white;
+
+    .menu-group {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        .menu-nav {
+            display: flex;
+            justify-content: center;
+            width: auto;
+            flex-direction: column;
+            a{
+                color: black;
+                text-decoration: none;
+            }
+        }
+        .contact{
+            display: flex;
+            flex-direction: column;
+            a{
+                color: black;
+                text-decoration: none;
+            }
+        }
+    }
+
+   
+}

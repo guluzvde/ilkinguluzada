@@ -1,5 +1,5 @@
 import { elastic as Menu } from 'react-burger-menu'
-const Example=()=> {
+const NavbarMobile=()=> {
   
 
  
@@ -14,4 +14,4 @@ const Example=()=> {
     );
 
 }
-export default Example;
+export default NavbarMobile;
