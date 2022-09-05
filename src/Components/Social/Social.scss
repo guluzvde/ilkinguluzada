@@ -9,3 +9,16 @@
         height: 2.5rem;
     }
 }
+@media screen and (max-width: 800px){
+    .social-group {
+        padding: 2rem 0 2rem 0;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        gap: 3rem;
+    
+        img {
+            height: 1.5rem;
+        }
+    }
+}

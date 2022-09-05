@@ -1,5 +1,12 @@
+#haqqimda{
+    h1{
+        color: white;
+        margin-top: 3rem;
+        text-align: center;
+    }
+}
 .group-haqqimda{
-    margin-top: 5rem;
+    margin-top: 3rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -23,5 +30,36 @@
             color: white;
         }
     }
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
+}
+@media screen and (max-width: 800px){
+    .group-haqqimda{
+        margin-top: 3rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        .img-container{
+    
+            height: 30rem;
+            overflow: hidden;
+            img{
+                height: 30rem;
+            }
+        }
+        .haqqimda-container{
+            margin-top: 3rem;
+            width: 70%;
+            h1{
+                text-align: center;
+                color:  white;
+                margin-bottom: 3rem;
+            }
+            p{
+                text-align: center;
+                color: white;
+            }
+        }
+        margin-bottom: 3rem;
+    }
 }

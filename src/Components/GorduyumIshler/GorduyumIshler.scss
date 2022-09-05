@@ -20,3 +20,34 @@
   }
   margin-bottom: 3rem;
 }
+
+
+@media screen and (max-width: 800px){
+
+  .portfolio-group {
+    margin-top: 3rem;
+    text-align: center;
+    h1 {
+      color: white;
+    }
+    .ish {
+      margin-top: 3rem;
+      display: grid;
+      // gap: 10rem;
+      row-gap: 1rem;
+      justify-content: center;
+      grid-template-columns: repeat(1,20rem);
+      a {
+          display: inline;
+        color: white;
+        text-decoration: none;
+      }
+    }
+    margin-bottom: 3rem;
+  }
+  
+
+
+
+
+}

@@ -2,12 +2,12 @@ import './Haqqimda.scss'
 function Haqqimda() {
   return (
     <section id="haqqimda">
+          <h1>Haqqımda</h1>
       <div className="group-haqqimda">
         <div className="img-container">
           <img src="../../../images/haqqimda.jpg" alt="" />
         </div>
         <div className="haqqimda-container">
-          <h1>Haqqımda</h1>
           <p>
             Mən, Quluzadə İlkin Vasif oğlu, 1999-cu il 5 sentyabr tarixində Bakı
             şəhərində anadan olmuşam. 2005-2016-ci illərdə 287 saylı "ZƏKALAR"
